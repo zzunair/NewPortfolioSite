@@ -2,6 +2,7 @@ import 'boxicons/css/boxicons.min.css';
 import '../styles/globals.css';
 import { storyblokInit, apiPlugin } from "@storyblok/react";
 import Header from '../components/Header';
+import Hero from '../components/Hero';
 import Feature from "../components/Feature";
 import Grid from "../components/Grid";
 import Page from "../components/Page";
@@ -12,6 +13,7 @@ const components = {
   grid: Grid,
   teaser: Teaser,
   page: Page,
+  banner: Hero
 };
 
 storyblokInit({

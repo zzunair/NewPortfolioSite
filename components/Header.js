@@ -2,7 +2,6 @@
 import React from 'react';
 import Image from 'next/image';
 
-
 const Header = () => {
   return (
     <>
@@ -10,10 +9,9 @@ const Header = () => {
       <i className="bx bx-list mobile-nav-toggle d-xl-none"></i>
 
       {/* Header */}
-      <header id="header" className="fixed top-0 left-0 bottom-0 w-72 bg-gray-900 text-white overflow-y-auto">
+      <header id="header" className="fixed top-0 left-0 bottom-0 w-72 bg-gray-900 text-white overflow-y-auto z-50">
         <div className="flex flex-col items-center">
           <div className="profile my-4 text-center">
-            {/* <img src="" alt="" className="w-30 h-30 rounded-full border-8 border-gray-700" /> */}
             <Image
               src="/assets/img/5E4A0180.jpg"
               alt="Zunair Shahid"
